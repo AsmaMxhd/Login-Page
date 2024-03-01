@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Tic Tac Toe</title>
+</head>
+<body id="loginPage">
+    <div id="lpcontainer">
+        <form action="TicTacToe.html">
+            <article>
+                <h2>Login Portal</h2>
+                <section>
+                    <div class="inputList">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name." required>
+                    </div>
+                    <div class="inputList">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name.">
+                    </div>
+                    <div class="inputList">
+                        <label for="userID">User ID:</label>
+                        <input type="email" id="userID" name="userID" placeholder="Enter your email ID." required>
+                    </div>
+                    <div class="inputList">
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass" name="pass" minlength="6" maxlength="12" placeholder="Enter your password." required>
+                    </div>
+                    <div>
+                        <input id="loginButton" type="submit" value="Login">
+                    </div>
+                    <div>
+                        <input id="loginReset" type="reset" value="Reset">
+                    </div>
+                </section>
+            </article>
+        </form>
+    </div>
+</body>
+</html>

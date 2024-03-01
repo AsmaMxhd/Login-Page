@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 722px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+}
+
+header{
+    margin: 50px;
+}
+
+/* Login Page */
+
+#loginPage{
+    background-image: url(images/loginBg.gif);
+    background-size: cover;
+    display: flex;
+}
+
+#loginPage h2{
+    font-size: 28px;
+}
+
+#lpcontainer{
+    margin: auto;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+#lpcontainer:hover{
+    box-shadow: 0px 0px 10px orange;
+}
+
+#loginPage h2{
+    padding-bottom: 15px;
+}
+
+.inputList{
+    padding: 25px;
+    font-size: 18px;
+}
+
+.inputList label{
+    float: left;
+}
+
+.inputList input{
+    margin-left: 25px;
+    float: right;
+    height: 25px;
+    width: 180px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid deeppink;
+    box-shadow: 0px 0px 10px orange;
+}
+
+#loginButton{
+    height: 30px;
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 40px;
+    background-color: deeppink;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px orange;
+    font-size: 15px;
+}
+
+#loginButton:hover{
+    background-color: orange;
+}
+
+#loginReset{
+  all: unset;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#loginReset:hover{
+    color: deeppink;
+}
+
+/* Main Page */
+header p{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 14px;
+    color: orange;
+}
+
+header p:hover{
+    color: cyan;
+}
+
+#mainbg{
+    background-image: url(images/mainbg.gif);
+    background-size: cover;
+}
+
+#mainbg img{
+    height: 130px;
+    margin: 100px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 0;
+    width: 35%;
+}
+
+.navbar li{
+    margin: 20px;
+    padding: 10px 0;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar a{
+    display: block;
+    text-decoration: none;
+    color: cyan;
+}
+
+.navbar a:hover{
+    color: orange;
+
+}
+
+.navbar li:hover{
+    border-color: deeppink;
+    box-shadow: 0px 0px 5px 5px orange;
+}
+
+/* Common elements on all theme pages */
+
+.home{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    width: 40px;
+    margin: 0 40px;
+}
+
+.home:hover{
+    box-shadow: 0 0 50px 0 cyan;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Honk;
+    font-size: 80px;
+    text-shadow: 2px 2px orange;
+}
+
+h1:hover{
+    text-shadow: 2px 2px cyan;
+}
+
+h2{
+    text-shadow: 1px 1px orange;
+}
+
+#container{
+    width: 100%;
+    height: 400px;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+.column{
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    float: left;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px darkcyan;
+}
+
+.floating{
+    height: 402px;
+    width: 402px;
+    margin: auto;
+    font-size: 30px;
+}
+
+footer p{
+    text-align: bottom;
+    padding: 50px;
+    color: darkorange;
+    text-shadow: 5px 5px black;
+}
+
+/* Theme 1 */
+
+#themeOne{
+    background-image: url(images/themeOneBg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cross img{
+    height: 40px;
+    padding-top: 30px;
+}
+
+.cross:hover{
+    background-image: url(images/goldconfetti.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 10px 10px 15px orange;
+    cursor: pointer;
+}
+
+.zero img{
+    height: 45px;
+    padding-top: 30px;
+}
+
+.zero:hover{
+    background-image: url(images/blueconfetti.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 10px 10px 15px deeppink;
+    cursor: pointer;
+} 
+
+/* Theme 2 */
+
+#themeTwo{
+    background-image: url(images/themeTwoBg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#themeTwo .column{
+    background-color: rgb(19, 53, 75, 0.75);
+}
+
+/* Theme 3 */
+
+#themeThree{
+    background-image: url(images/themeThreeBg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cross3 {
+    background-image: url(images/one.gif);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-position: left;
+}
+
+.cross3:hover{
+    background-image: url(images/oneHover.gif);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    box-shadow: 10px 10px 15px orange;
+}
+
+.zero3{
+    background-image: url(images/two.gif);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-position: left;
+}
+
+.zero3:hover{
+    background-image: url(images/twoHover.gif);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    box-shadow: 10px 10px 15px deeppink;
+}
+
+/* Theme 4 */
+
+#themeFour{
+    background-image: url(images/themeFourBg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#themeFour .column{
+    background-color: rgba(27, 79, 87, 0.667);
+}
+
+.cross4{
+    background-image: url(images/fruit1.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.cross4:hover{
+    box-shadow: 10px 10px 15px deeppink;
+}
+
+.zero4{
+    background-image: url(images/fruit2.gif);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.zero4:hover{
+    box-shadow: 10px 10px 15px pink;
+}
+
+/* Theme 5 */
+
+#themeFive{
+    background-image: url(images/themeFiveBg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cross5 img{
+    height: 80px;
+    padding-top: 25px;
+}
+
+.cross5:hover{
+    background-image: url(images/goldconfetti.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 15px lightcoral;
+}
+
+.zero5 img{
+    height: 70px;
+    padding-top: 20px;
+}
+
+.zero5:hover{
+    background-image: url(images/blueconfetti.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 15px lightcoral;
+}
+
+/* Theme 6 */
+
+#themeSix{
+    background-image: url(images/themeSixBg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cross6 img{
+    height: 60px;
+    padding-top: 25px;
+}
+
+.cross6:hover{
+    background-image: url(images/themeSixHover.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 15px orange;
+}
+
+.zero6 img{
+    height: 70px;
+    padding-top: 20px;
+}
+
+.zero6:hover{
+    background-image: url(images/themeSixHover.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 15px orange;
+}
