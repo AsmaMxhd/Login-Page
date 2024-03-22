@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 722px;
+    /* height: 722px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: wheat;
     background-color: black;
@@ -28,7 +28,7 @@ header{
 }
 
 #lpcontainer{
-    margin: auto;
+    margin: 150px auto;
     width: auto;
     background-color: rgba(128, 128, 128, 0.1);
     backdrop-filter: blur(5px);
@@ -213,6 +213,13 @@ footer p{
     text-shadow: 5px 5px black;
 }
 
+#status{
+    text-align: center;
+    padding: 50px;
+    color: cyan;
+    text-shadow: 0 0 30px orange;
+}
+
 /* Theme 1 */
 
 #themeOne{
@@ -225,6 +232,7 @@ footer p{
 .cross img{
     height: 40px;
     padding-top: 30px;
+    display: none;
 }
 
 .cross:hover{
@@ -238,6 +246,7 @@ footer p{
 .zero img{
     height: 45px;
     padding-top: 30px;
+    display: none;
 }
 
 .zero:hover{
@@ -270,36 +279,38 @@ footer p{
     background-size: cover;
 }
 
-.cross3 {
+/* .cross3 {
     background-image: url(images/one.gif);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
     background-position: left;
-}
+} */
 
 .cross3:hover{
-    background-image: url(images/oneHover.gif);
+    /* background-image: url(images/oneHover.gif);
     background-repeat: no-repeat;
     background-size: 60%;
-    background-position: center;
+    background-position: center; */
     box-shadow: 10px 10px 15px orange;
+    cursor: pointer;
 }
 
-.zero3{
+/* .zero3{
     background-image: url(images/two.gif);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
     background-position: left;
-}
+} */
 
 .zero3:hover{
-    background-image: url(images/twoHover.gif);
+    /* background-image: url(images/twoHover.gif);
     background-repeat: no-repeat;
     background-size: 60%;
-    background-position: center;
+    background-position: center; */
     box-shadow: 10px 10px 15px deeppink;
+    cursor: pointer;
 }
 
 /* Theme 4 */
@@ -315,26 +326,28 @@ footer p{
     background-color: rgba(27, 79, 87, 0.667);
 }
 
-.cross4{
+/* .cross4{
     background-image: url(images/fruit1.gif);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
-}
+} */
 
 .cross4:hover{
     box-shadow: 10px 10px 15px deeppink;
+    cursor: pointer;
 }
 
-.zero4{
+/* .zero4{
     background-image: url(images/fruit2.gif);
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center;
-}
+} */
 
 .zero4:hover{
     box-shadow: 10px 10px 15px pink;
+    cursor: pointer;
 }
 
 /* Theme 5 */
@@ -349,6 +362,7 @@ footer p{
 .cross5 img{
     height: 80px;
     padding-top: 25px;
+    display: none;
 }
 
 .cross5:hover{
@@ -356,11 +370,13 @@ footer p{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px lightcoral;
+    cursor: pointer;
 }
 
 .zero5 img{
     height: 70px;
     padding-top: 20px;
+    display: none;
 }
 
 .zero5:hover{
@@ -368,6 +384,7 @@ footer p{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px lightcoral;
+    cursor: pointer;
 }
 
 /* Theme 6 */
@@ -382,6 +399,7 @@ footer p{
 .cross6 img{
     height: 60px;
     padding-top: 25px;
+    display: none;
 }
 
 .cross6:hover{
@@ -389,11 +407,13 @@ footer p{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px orange;
+    cursor: pointer;
 }
 
 .zero6 img{
     height: 70px;
     padding-top: 20px;
+    display: none;
 }
 
 .zero6:hover{
@@ -401,4 +421,5 @@ footer p{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px orange;
+    cursor: pointer;
 }
